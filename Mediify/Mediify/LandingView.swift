@@ -10,10 +10,35 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Mediify")
+                .font(.system(size: 70))
+                .foregroundColor(Color("lightPurple"))
+            
+            Spacer()
+            
+            Text("Hi there!")
+                .font(.system(size: 25))
+                .foregroundColor(Color("darkGray"))
+            Text("Welcome to Mediify")
+                .font(.system(size: 25))
+                .foregroundColor(Color("darkGray"))
+            
+            Spacer()
+            
+            Image("Two Doctors")
+                .padding(.bottom)
+            
+            HStack {
+                Button("Sign in") {}
+                    .cornerRadius(25)
+                    .padding(.trailing)
+                Button("Log in") {}
+                    .cornerRadius(25)
+                    .padding(.leading)
+            }
+            .font(.system(size: 22))
+            .buttonStyle(.borderedProminent)
+            .tint(Color("lightPurple"))
         }
         .padding()
     }
