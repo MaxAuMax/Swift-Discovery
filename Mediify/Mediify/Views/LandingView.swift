@@ -30,7 +30,7 @@ struct LandingView: View {
                 
                 HStack {
                     NavigationLink {
-                        Text("Sign in page")
+                        SigninView()
                     } label: {
                         Text("Sign in")
                             .padding(.vertical, 3)
@@ -39,7 +39,7 @@ struct LandingView: View {
                     .cornerRadius(25)
 
                     NavigationLink {
-                        Text("Log in page")
+                        LoginView()
                     } label: {
                         Text("Log in")
                             .padding(.vertical, 3)
