@@ -10,24 +10,23 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         VStack {
-            Text("Mediify")
+            Text("mediify")
                 .font(.system(size: 70))
                 .foregroundColor(Color("lightPurple"))
-            
-            Spacer()
-            
+                .padding(.bottom, 0.5)
+
             Text("Hi there!")
-                .font(.system(size: 25))
+                .font(.system(size: 22))
                 .foregroundColor(Color("darkGray"))
             Text("Welcome to Mediify")
-                .font(.system(size: 25))
+                .font(.system(size: 22))
                 .foregroundColor(Color("darkGray"))
-            
+
             Spacer()
-            
+
             Image("Two Doctors")
                 .padding(.bottom)
-            
+
             HStack {
                 Button("Sign in") {}
                     .cornerRadius(25)
