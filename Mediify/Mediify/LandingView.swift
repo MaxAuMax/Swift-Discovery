@@ -33,17 +33,19 @@ struct LandingView: View {
                         Text("Sign in page")
                     } label: {
                         Text("Sign in")
+                            .padding(.vertical, 3)
+                            .padding(.horizontal)
                     }
                     .cornerRadius(25)
-                    .padding(.trailing)
 
                     NavigationLink {
                         Text("Log in page")
                     } label: {
                         Text("Log in")
+                            .padding(.vertical, 3)
+                            .padding(.horizontal)
                     }
                     .cornerRadius(25)
-                    .padding(.leading)
                 }
                 .font(.system(size: 22))
                 .buttonStyle(.borderedProminent)
