@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B12305BA29FEBD9A0084BD8D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12305B929FEBD9A0084BD8D /* LoginView.swift */; };
-		B12305BF29FEBE4D0084BD8D /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12305BE29FEBE4D0084BD8D /* SigninView.swift */; };
+		B12305BF29FEBE4D0084BD8D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12305BE29FEBE4D0084BD8D /* SignupView.swift */; };
 		B165F56629FDD3760099380F /* MediifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B165F56529FDD3760099380F /* MediifyApp.swift */; };
 		B165F56829FDD3760099380F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B165F56729FDD3760099380F /* LandingView.swift */; };
 		B165F56A29FDD3770099380F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B165F56929FDD3770099380F /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		B12305B929FEBD9A0084BD8D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		B12305BE29FEBE4D0084BD8D /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		B12305BE29FEBE4D0084BD8D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		B165F56229FDD3760099380F /* Mediify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B165F56529FDD3760099380F /* MediifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediifyApp.swift; sourceTree = "<group>"; };
 		B165F56729FDD3760099380F /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			children = (
 				B165F56729FDD3760099380F /* LandingView.swift */,
 				B12305B829FEBD600084BD8D /* Login */,
-				B12305BB29FEBDF80084BD8D /* Signin */,
+				B12305BB29FEBDF80084BD8D /* Signup */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		B12305BB29FEBDF80084BD8D /* Signin */ = {
+		B12305BB29FEBDF80084BD8D /* Signup */ = {
 			isa = PBXGroup;
 			children = (
-				B12305BE29FEBE4D0084BD8D /* SigninView.swift */,
+				B12305BE29FEBE4D0084BD8D /* SignupView.swift */,
 			);
-			path = Signin;
+			path = Signup;
 			sourceTree = "<group>";
 		};
 		B165F55929FDD3760099380F = {
@@ -169,7 +169,7 @@
 			files = (
 				B12305BA29FEBD9A0084BD8D /* LoginView.swift in Sources */,
 				B165F56829FDD3760099380F /* LandingView.swift in Sources */,
-				B12305BF29FEBE4D0084BD8D /* SigninView.swift in Sources */,
+				B12305BF29FEBE4D0084BD8D /* SignupView.swift in Sources */,
 				B165F56629FDD3760099380F /* MediifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

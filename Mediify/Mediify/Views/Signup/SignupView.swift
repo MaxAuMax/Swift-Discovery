@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct SigninView: View {
+struct SignupView: View {
     var body: some View {
-        Text("Sign in page")
+        Text("Sign up page")
     }
 }
 
 struct SigninView_Previews: PreviewProvider {
     static var previews: some View {
-        SigninView()
+        SignupView()
     }
 }
