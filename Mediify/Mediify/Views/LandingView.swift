@@ -22,12 +22,12 @@ struct LandingView: View {
                 Text("Welcome to Mediify")
                     .font(.system(size: 22))
                     .foregroundColor(Color("darkGray"))
-                
+
                 Spacer()
-                
+
                 Image("Two Doctors")
                     .padding([.bottom, .leading])
-                
+
                 HStack {
                     NavigationLink {
                         SignupView()
